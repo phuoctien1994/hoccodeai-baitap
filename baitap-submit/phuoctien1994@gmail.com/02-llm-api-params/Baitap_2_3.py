@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
     # Làm theo hướng dẫn trong bài, truy cập https://console.groq.com/keys để lấy API Key nha
-    api_key='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',
+    api_key='',
 )
 
 def get_article_text(url):
